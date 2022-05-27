@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//import
+
 void main(List<String> args) {
   runApp(const HelloApp());
 }
@@ -15,6 +15,7 @@ class _HelloAppState extends State<HelloApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      
       home: Scaffold(
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
         bottomNavigationBar: Container(
@@ -30,7 +31,7 @@ class _HelloAppState extends State<HelloApp> {
           // focusElevation: 20,
         ),
         appBar: AppBar(
-          title: const Text('Hello App'),
+          title: const Text('Github App'),
           actions: [
             const Icon(Icons.search),
             IconButton(onPressed: () {}, icon: const Icon(Icons.call))
